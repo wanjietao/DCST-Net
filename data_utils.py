@@ -2,6 +2,7 @@ import torch
 from torch_geometric.data import Data, Batch
 import numpy as np
 
+
 def preprocess_prediction_data(samples, graph_data_dir):
     # 加载图元数据
     stations = load_station_metadata(f"{graph_data_dir}/stations.csv")
