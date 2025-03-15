@@ -5,6 +5,7 @@ from model import AirfarePredictor, TrainingPipeline
 from data_utils import create_dataloader, load_datasets
 from config import DEFAULT_HYPERPARAMS
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Airfare Prediction Training")
     parser.add_argument('--data_dir', type=str, default='processed_data',
