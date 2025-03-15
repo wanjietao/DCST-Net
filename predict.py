@@ -6,6 +6,7 @@ import numpy as np
 from model import AirfarePredictor
 from data_utils import preprocess_prediction_data
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Airfare Price Prediction")
     parser.add_argument('--model_checkpoint', type=str, required=True,
